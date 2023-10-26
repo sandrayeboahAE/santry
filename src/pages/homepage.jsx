@@ -6,6 +6,7 @@ import HomeSlide from "@/components/Homeslide";
 import About from "@/components/About";
 import Team from "@/components/Team";
 import Menu from "@/components/Menu";
+import Reservation from "@/components/Reservation";
 
 const HomePage = () => {
     return ( <div className="w-screen">
@@ -42,6 +43,7 @@ const HomePage = () => {
                 <About />
                 <Team />
                 <Menu />
+                <Reservation />
             </div>
         </Flex>
     </div> );
