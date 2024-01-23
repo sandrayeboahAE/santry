@@ -1,5 +1,6 @@
 import '@/styles/globals.css';
 import '@mantine/core/styles.css';
+import '@mantine/carousel/styles.css';
 import Layout from '../components/Layout';
 import { MantineProvider } from '@mantine/core';
 import React from "react";

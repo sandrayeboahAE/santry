@@ -7,6 +7,9 @@ import About from "@/components/About";
 import Team from "@/components/Team";
 import Menu from "@/components/Menu";
 import Reservation from "@/components/Reservation";
+import Gallery from "@/components/Gallery";
+import Blog from "@/components/Blog";
+import Contact from "@/components/Contact";
 
 const HomePage = () => {
     return ( <div className="w-screen">
@@ -31,10 +34,10 @@ const HomePage = () => {
                 </div>
                 <div>
                     <Flex direction="row">
-                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4"> <a href="https://facebook.com/santry123"><TbBrandFacebookFilled /></a></div>
-                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4"> <a href="https://twitter.com/santry123"><TbBrandTwitterFilled /></a></div>
-                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4"> <a href="https://instagram.com/santry123"><TbBrandInstagram /></a></div>
-                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4"> <a href="https://youtube.com/santry123"><TbBrandYoutubeFilled /></a></div>
+                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4  hover:text-black"> <a href="https://facebook.com/santry123"><TbBrandFacebookFilled /></a></div>
+                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4  hover:text-black"> <a href="https://twitter.com/santry123"><TbBrandTwitterFilled /></a></div>
+                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4  hover:text-black"> <a href="https://instagram.com/santry123"><TbBrandInstagram /></a></div>
+                        <div className="border border-gray-600 text-gray-600 rounded-full m-3 p-4  hover:text-black"> <a href="https://youtube.com/santry123"><TbBrandYoutubeFilled /></a></div>
                     </Flex>
                 </div>
             </div>
@@ -44,6 +47,9 @@ const HomePage = () => {
                 <Team />
                 <Menu />
                 <Reservation />
+                <Gallery />
+                <Blog />
+                <Contact />
             </div>
         </Flex>
     </div> );
