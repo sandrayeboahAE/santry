@@ -45,32 +45,38 @@ const About = () => {
                     </div>
                 </div>
             </Flex>
+            <div className="w-full">
             <Flex direction="column">
-                <div className="m-5">
-                    <Flex direction="column" align="center" gap="md">
-                       <Title order={1}>Celebrating the season of food for the whole </Title>
-                       <Title order={1}>year. Enjoy the taste that differs.</Title>
-                    </Flex>
-                </div>
-                <div className="w-full">
-                    <Flex direction="row" align="center" gap="md">
-                        <div>
-                            <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit inventore 
-                            delectus dolorem quaerat, ipsa saepe, voluptas minima temporibus illo vitae 
-                            similique dolorum non dicta beatae deleniti. Iure, molestiae numquam?
-                            </Text>
-                        </div>
-                        <div className="relative">
-                            <div className="static" >
-                              <Image src="/about-img3.png" alt="about image" width="1200" height="1200" /> 
+                    <div className="m-5">
+                        <Flex direction="column" align="center" gap="md">
+                           <Title order={1}>Celebrating the season of food for the whole </Title>
+                           <Title order={1}>year. Enjoy the taste that differs.</Title>
+                        </Flex>
+                    </div>
+                    <div className="w-full">
+                        <Flex direction="row" align="center" gap="lg" justify="center">
+                            <div className="w-1/3">
+                                <div className="static">
+                                    <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit inventore 
+                                    delectus dolorem quaerat, ipsa saepe, voluptas minima temporibus illo vitae 
+                                    similique dolorum non dicta beatae deleniti. Iure, molestiae numquam?
+                                    </Text>
+                                </div>
                             </div>
-                            <div className="absolute -bottom-0 -left-0">
-                              <Image src="/about-img4.png" alt="about image" width="400" height="400" />
+                            <div className="w-2/3">
+                                <div className="relative">
+                                    <div className="static" >
+                                      <Image src="/about-img3.png" alt="about image" width="800" height="800" /> 
+                                    </div>
+                                    <div className="absolute -bottom-20 -left-56">
+                                      <Image src="/about-img4.png" alt="about image" width="300" height="300" />
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </Flex>
-                </div>
+                        </Flex>
+                    </div>
             </Flex>
+            </div>
         </Stack>
     </div> );
 }
