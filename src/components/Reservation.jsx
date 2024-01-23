@@ -5,7 +5,7 @@ import Link from "next/link";
 import { DateInput } from "@mantine/dates";
 
 const Reservation = () => {
-    return ( <div className="m-10 bg-black p-10">
+    return ( <div className="my-10 h-90 p-10 bg-[url(/reservation-banner.jpg)]">
         <Flex direction="row">
             <div className="w-1/2 m-5 text-white">
                 <Flex direction="column" gap="lg">
@@ -20,8 +20,8 @@ const Reservation = () => {
                         </Text>
                     </div>
                     <div><Text>We accept reservation. call us or complete the form below</Text></div>
-                    <div><TbPhone /></div>
-                    <div><Link href="+18464558999"><Text>+1 (846) 455 - 8999</Text></Link></div>
+                    <div><TbPhone size={60}/></div>
+                    <div><Link href="+18464558999"><Text fz="xl">+1 (846) 455 - 8999</Text></Link></div>
                 </Flex>
             </div>
             <div className="m-5">
